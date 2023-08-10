@@ -17,7 +17,6 @@ export default function VideoDetail() {
           width='100%'
           height='640'
           src={`http://www.youtube.com/embed/${video.id}`}
-          frameBorder='0'
           style={{ border: 'none' }}
         />
         <div>
